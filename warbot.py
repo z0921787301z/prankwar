@@ -30,7 +30,7 @@ kicker4 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0")
 print('4號機-{} 登入成功 '.format(kicker4.profile.displayName))
 pending = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0")
 print('5號機-{} 登入成功 '.format(pending.profile.displayName))
-print("登入所花時間為"+str(format_timespan(time.time() - botStart)))）
+print("登入所花時間為"+str(format_timespan(time.time() - botStart)))
 #__________________________
 kk1 = LINE(kicker1)
 kk2 = LINE(kicker2)
