@@ -24,7 +24,7 @@ kicker2 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0")
 kicker3 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
 kicker4 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
 pending = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
-打印（“主機- {}登錄成功” .format（selfbot.profile.displayName））
+print("登入所花時間為"+str(format_timespan(time.time() - botStart)))）
 #__________________________
 kk1 = LINE(kicker1)
 kk2 = LINE(kicker2)
