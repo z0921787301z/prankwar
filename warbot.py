@@ -11,19 +11,25 @@ from humanfriendly import format_timespan, format_size, format_number, format_le
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse
 from gtts import gTTS
 _session = requests.session()
-botStart = time.time()
 settingsOpen = codecs.open("PrankBots.json","r","utf-8")
 PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
 # MASUKIN TOKEN DISINI GUYS
+botStart = time.time()
 tkn = json.load(codecs.open("tokens.json","r","utf-8"))
 selfbot = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+print('主機-{} 登入成功 '.format(selfbot.profile.displayName))
 kicker1 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+print('1號機-{} 登入成功 '.format(kicker1.profile.displayName))
 kicker2 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+print('2號機-{} 登入成功 '.format(kicker2.profile.displayName))
 kicker3 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+print('3號機-{} 登入成功 '.format(kicker3.profile.displayName))
 kicker4 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
-pending = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+print('4號機-{} 登入成功 '.format(kicker4.profile.displayName))
+pending = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0")
+print('5號機-{} 登入成功 '.format(pending.profile.displayName))
 print("登入所花時間為"+str(format_timespan(time.time() - botStart)))）
 #__________________________
 kk1 = LINE(kicker1)
