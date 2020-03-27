@@ -17,13 +17,13 @@ PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
 # MASUKIN TOKEN DISINI GUYS
-TKN = json.load（codecs.open（ “ tokens.json ”，“ - [R ” ，“ UTF-8 ”））
-kicker1 =  “令牌”	selfbot = LINE（tkn [ “令牌” ] [ 0 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
-kicker2 =  “令牌”	kicker1 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
-kicker3 =  “令牌”	kicker2 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
-kicker4 =  “令牌”	kicker3 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
-待定=  “ TOKEN ”	kicker4 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
-待定= LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+tkn = json.load(codecs.open("tokens.json","r","utf-8"))
+selfbot = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker1 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker2 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker3 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker4 = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+pending = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
 打印（“主機- {}登錄成功” .format（selfbot.profile.displayName））
 #__________________________
 kk1 = LINE(kicker1)
