@@ -1,31 +1,4 @@
 #utf_8 *lineX [prankBots Creator]
-
-"""
-all of this data is copied from creator production PrankBots
-don't forget to always support the prabkbots channel
-SUBSCRABE HERE https://bit.ly/2xbVxlh
-MY ID LINE :: http://line.me/ti/p/~Adiputra.95
-Copy Righ :: http://github.com/Aprank
-Country :: INDONESIA.
-Response by acil
-
-
-MENERIMA PEMESANAN SCRIPT
-BOT PROTECT
-BOT WAR
-SELFBOT
-BOT OFFICIAL TEMPLATE
-
-PEMBUATAN BOT BEBAS REQUEST COMMANT, MODE BACKUP DLL.
-JIKA KAMU MINAT CHAT KE ID LINE
-line.me/ti/p/~Adiputra.95
-[TIDAK MENERIMA CALL ATAU UNDANGAN GRUP [AUTO REJECET AKTIF]]
-
-BIASAKAN CHAT DENGAN SOPAN WALAWPUN MENGGUNAKAN BAHAS FORMAL (LO,GW)
-SELENGEAN ANE GAK RESPON.
-YANG MAU KEPOIN GW JUGA BOLEH WKWKWK
-
-"""
 from Rank.lineX import *
 from Rank.service.ttypes import *
 from multiprocessing import Pool, Process
@@ -44,12 +17,15 @@ PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
 # MASUKIN TOKEN DISINI GUYS
-selfbot = "TOKEN"
-kicker1 = "TOKEN"
-kicker2 = "TOKEN"
-kicker3 = "TOKEN"
-kicker4 = "TOKEN"
-pending = "TOKEN"
+tkn = json.load(codecs.open("tokens.json","r","utf-8"))
+selfbot = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0")
+kicker1 = LINE(tkn["tokens"][1], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker2 = LINE(tkn["tokens"][1], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker3 = LINE(tkn["tokens"][1], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+kicker4 = LINE(tkn["tokens"][1], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+pending = LINE(tkn["tokens"][1], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
+print('主機-{} 登入成功 '.format(selfbot.profile.displayName))
+
 """
 PPPPPPPPPPPPPPPPP                                                           kkkkkkkk           BBBBBBBBBBBBBBBBB                             tttt                           
 P::::::::::::::::P                                                          k::::::k           B::::::::::::::::B                         ttt:::t                           
