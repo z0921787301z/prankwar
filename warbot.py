@@ -1,31 +1,4 @@
 #utf_8 *lineX [prankBots Creator]
-
-"""
-all of this data is copied from creator production PrankBots
-don't forget to always support the prabkbots channel
-SUBSCRABE HERE https://bit.ly/2xbVxlh
-MY ID LINE :: http://line.me/ti/p/~Adiputra.95
-Copy Righ :: http://github.com/Aprank
-Country :: INDONESIA.
-Response by acil
-
-
-MENERIMA PEMESANAN SCRIPT
-BOT PROTECT
-BOT WAR
-SELFBOT
-BOT OFFICIAL TEMPLATE
-
-PEMBUATAN BOT BEBAS REQUEST COMMANT, MODE BACKUP DLL.
-JIKA KAMU MINAT CHAT KE ID LINE
-line.me/ti/p/~Adiputra.95
-[TIDAK MENERIMA CALL ATAU UNDANGAN GRUP [AUTO REJECET AKTIF]]
-
-BIASAKAN CHAT DENGAN SOPAN WALAWPUN MENGGUNAKAN BAHAS FORMAL (LO,GW)
-SELENGEAN ANE GAK RESPON.
-YANG MAU KEPOIN GW JUGA BOLEH WKWKWK
-
-"""
 from Rank.lineX import *
 from Rank.service.ttypes import *
 from multiprocessing import Pool, Process
@@ -44,31 +17,14 @@ PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
 # MASUKIN TOKEN DISINI GUYS
-selfbot = "TOKEN"
-kicker1 = "TOKEN"
-kicker2 = "TOKEN"
-kicker3 = "TOKEN"
-kicker4 = "TOKEN"
-pending = "TOKEN"
-"""
-PPPPPPPPPPPPPPPPP                                                           kkkkkkkk           BBBBBBBBBBBBBBBBB                             tttt                           
-P::::::::::::::::P                                                          k::::::k           B::::::::::::::::B                         ttt:::t                           
-P::::::PPPPPP:::::P                                                         k::::::k           B::::::BBBBBB:::::B                        t:::::t                           
-PP:::::P     P:::::P                                                        k::::::k           BB:::::B     B:::::B                       t:::::t                           
-  P::::P     P:::::Prrrrr   rrrrrrrrr     aaaaaaaaaaaaa   nnnn  nnnnnnnn     k:::::k    kkkkkkk  B::::B     B:::::B   ooooooooooo   ttttttt:::::ttttttt        ssssssssss   
-  P::::P     P:::::Pr::::rrr:::::::::r    a::::::::::::a  n:::nn::::::::nn   k:::::k   k:::::k   B::::B     B:::::B oo:::::::::::oo t:::::::::::::::::t      ss::::::::::s  
-  P::::PPPPPP:::::P r:::::::::::::::::r   aaaaaaaaa:::::a n::::::::::::::nn  k:::::k  k:::::k    B::::BBBBBB:::::B o:::::::::::::::ot:::::::::::::::::t    ss:::::::::::::s 
-  P:::::::::::::PP  rr::::::rrrrr::::::r           a::::a nn:::::::::::::::n k:::::k k:::::k     B:::::::::::::BB  o:::::ooooo:::::otttttt:::::::tttttt    s::::::ssss:::::s
-  P::::PPPPPPPPP     r:::::r     r:::::r    aaaaaaa:::::a   n:::::nnnn:::::n k::::::k:::::k      B::::BBBBBB:::::B o::::o     o::::o      t:::::t           s:::::s  ssssss 
-  P::::P             r:::::r     rrrrrrr  aa::::::::::::a   n::::n    n::::n k:::::::::::k       B::::B     B:::::Bo::::o     o::::o      t:::::t             s::::::s      
-  P::::P             r:::::r             a::::aaaa::::::a   n::::n    n::::n k:::::::::::k       B::::B     B:::::Bo::::o     o::::o      t:::::t                s::::::s   
-  P::::P             r:::::r            a::::a    a:::::a   n::::n    n::::n k::::::k:::::k      B::::B     B:::::Bo::::o     o::::o      t:::::t    ttttttssssss   s:::::s 
-PP::::::PP           r:::::r            a::::a    a:::::a   n::::n    n::::nk::::::k k:::::k   BB:::::BBBBBB::::::Bo:::::ooooo:::::o      t::::::tttt:::::ts:::::ssss::::::s
-P::::::::P           r:::::r            a:::::aaaa::::::a   n::::n    n::::nk::::::k  k:::::k  B:::::::::::::::::B o:::::::::::::::o      tt::::::::::::::ts::::::::::::::s 
-P::::::::P           r:::::r             a::::::::::aa:::a  n::::n    n::::nk::::::k   k:::::k B::::::::::::::::B   oo:::::::::::oo         tt:::::::::::tt s:::::::::::ss  
-PPPPPPPPPP           rrrrrrr              aaaaaaaaaa  aaaa  nnnnnn    nnnnnnkkkkkkkk    kkkkkkkBBBBBBBBBBBBBBBBB      ooooooooooo             ttttttttttt    sssssssssss    
-
-"""
+TKN = json.load（codecs.open（ “ tokens.json ”，“ - [R ” ，“ UTF-8 ”））
+kicker1 =  “令牌”	selfbot = LINE（tkn [ “令牌” ] [ 0 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+kicker2 =  “令牌”	kicker1 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+kicker3 =  “令牌”	kicker2 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+kicker4 =  “令牌”	kicker3 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+待定=  “ TOKEN ”	kicker4 = LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+待定= LINE（tkn [ “令牌” ] [ 1 ]，appName = “ IOS \ t 8.14.2 \ t Iphone X \ t 8.1.0 ”）
+打印（“主機- {}登錄成功” .format（selfbot.profile.displayName））
 #__________________________
 kk1 = LINE(kicker1)
 kk2 = LINE(kicker2)
